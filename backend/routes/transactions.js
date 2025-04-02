@@ -3,7 +3,7 @@ import Transaction from "../models/Transaction.js";
 
 const router = express.Router();
 
-// Create a new transaction
+
 router.post("/create", async (req, res) => {
   try {
     const newTransaction = new Transaction(req.body);
@@ -14,7 +14,7 @@ router.post("/create", async (req, res) => {
   }
 });
 
-// Get all transactions
+
 router.get("/fetch", async (req, res) => {
   try {
     const transactions = await Transaction.find().sort({ visitDate: -1 });
@@ -24,7 +24,7 @@ router.get("/fetch", async (req, res) => {
   }
 });
 
-// Get transactions filtered by date range
+
 router.get("/filter", async (req, res) => {
   try {
     const { from, to } = req.query;
@@ -47,7 +47,7 @@ router.put("/update/:receiptNumber", async (req, res) => {
     const { receiptNumber } = req.params;
 
     const updatedTransaction = await Transaction.findOneAndUpdate(
-      { receiptNumber }, // Find by receiptNumber
+      { receiptNumber }, 
       req.body,
       { new: true, runValidators: true }
     );
