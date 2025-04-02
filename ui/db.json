@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "id": "e433",
+      "username": "admin",
+      "email": "admin@1",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "6d12",
+      "username": "Arjun",
+      "email": "arjun@1",
+      "password": "arjun",
+      "role": "user"
+    },
+    {
+      "id": "fa42",
+      "username": "Aryan",
+      "email": "aryan@1",
+      "password": "aryan",
+      "role": "user"
+    }
+  ],
+  "posts": [
+    {
+      "id": "091a",
+      "movie_name": "Kumbilangi NIght",
+      "movie_genre": "Drama",
+      "movie_language": "Malayalam",
+      "year_of_release": "2014",
+      "review": "Kumbalangi Nights  is a heartwarming Malayalam film about four brothers from a dysfunctional family who learn to bond and heal through life's trials. Set in the picturesque village of Kumbalangi, the film beautifully explores themes of family, masculinity, love, and emotional growth. The rustic visuals, paired with strong performances, particularly from Fahadh Faasil, elevate the story, which unfolds with subtlety and depth. The brothers' journey towards reconciliation is both simple and profound, making Kumbalangi Nights a standout for its raw and realistic portrayal of relationships and personal healing",
+      "username": "Ashish"
+    },
+    {
+      "id": "cea6",
+      "movie_name": "Hridhayam",
+      "movie_genre": "Feel Good ",
+      "movie_language": "Malayalam",
+      "year_of_release": "2022",
+      "review": "Hridyam is a poignant coming-of-age Malayalam film directed by Vineeth Srinivasan. It chronicles the journey of a young man, Arun, as he navigates through love, heartbreak, and the challenges of establishing a career. The film's narrative touches on the universal struggles faced by those in their twenties—balancing dreams, relationships, and the harsh realities of adulthood. The film stands out for its stunning cinematography and a memorable soundtrack, which enhance its emotional depth. Its relatability, especially for young audiences, combined with its uplifting yet realistic portrayal of growth, makes Hridyam an engaging and heartfelt watch​",
+      "username": "Ashish"
+    },
+    {
+      "id": "d74a",
+      "movie_name": "Joji",
+      "movie_genre": "Drama",
+      "movie_language": "Malayalam",
+      "year_of_release": "2019",
+      "review": "Joji , directed by Dileesh Pothan, is a gripping Malayalam crime drama inspired by Shakespeare's Macbeth. The film follows Joji, a man consumed by greed and ambition, who plots to take control of his family's wealth. As events unfold, Joji's descent into darkness and his moral decay are brilliantly portrayed. The film is intense, dark, and full of psychological tension, with a strong performance by Fahadh Faasil in the lead role. The cinematography captures the bleak atmosphere of the story, making Joji a compelling watch for fans of psychological thrillers and dark dramas​",
+      "username": "Ashish"
+    },
+    {
+      "id": "1b16",
+      "movie_name": "Mukundan Unni Assosiates",
+      "movie_genre": "Crime Drama",
+      "movie_language": "Malayalam",
+      "year_of_release": "2015",
+      "review": "Mukundan Unni Associates  directed by Abhinav Sunder Nayak, is a satirical crime drama that follows the life of Mukundan Unni, a morally corrupt lawyer whose unscrupulous actions drive the narrative. The film combines sharp humor with suspense, delivering an engaging storyline that explores the ethical dilemmas faced by its protagonist. Mukundan, portrayed by Vineeth Sreenivasan, is an opportunist willing to go to any lengths to further his career, which leads to a series of darkly comedic and thrilling events. The film's blend of wit, crime, and suspense, along with clever twists, makes it an engaging watch",
+      "username": "Arjun"
+    }
+  ],
+  "messages": [
+    {
+      "id": "873a",
+      "username": "Arjun",
+      "email": "arjun@1",
+      "message": "Not able to post"
+    },
+    {
+      "id": "cb7d",
+      "username": "Ashish",
+      "email": "ashi@1",
+      "message": "Test"
+    }
+  ]
+}
