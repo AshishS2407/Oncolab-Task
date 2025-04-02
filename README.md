@@ -78,3 +78,6 @@ The **Diagnostics Lab Application** is a web-based system designed to efficientl
 💳 **Integration with external payment gateways**  
 
 ---
+
+## 📜 License 📄
+This project is open-source and available under the **MIT License**.
